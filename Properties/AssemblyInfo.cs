@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AIOmedicare.Domain")]
+[assembly: AssemblyTitle("Russet.AIOmedicare.Domain")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AIOmedicare.Domain")]
+[assembly: AssemblyCompany("Russet Technology Solutions LLP")]
+[assembly: AssemblyProduct("Russet.AIOmedicare.Domain")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

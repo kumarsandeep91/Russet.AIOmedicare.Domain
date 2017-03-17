@@ -69,6 +69,7 @@
     <Compile Include="Domain\Doctor\DoctorCommissionType.cs" />
     <Compile Include="Domain\Doctor\DoctorFeesHistory.cs" />
     <Compile Include="Domain\Doctor\DoctorType.cs" />
+    <Compile Include="Domain\Inventories\Inventory.cs" />
     <Compile Include="Domain\Patient\BloodGroup.cs" />
     <Compile Include="Domain\Contact.cs" />
     <Compile Include="Domain\Doctor\Doctor.cs" />
@@ -81,6 +82,11 @@
     <Compile Include="Domain\Patient\PatientRelative.cs" />
     <Compile Include="Domain\Patient\PatientType.cs" />
     <Compile Include="Domain\Patient\PatientVisit.cs" />
+    <Compile Include="Domain\Products\Batch.cs" />
+    <Compile Include="Domain\Products\Category.cs" />
+    <Compile Include="Domain\Products\Material.cs" />
+    <Compile Include="Domain\Products\Product.cs" />
+    <Compile Include="Domain\Products\SubCategory.cs" />
     <Compile Include="Domain\Service\Service.cs" />
     <Compile Include="Domain\Service\ServiceCategory.cs" />
     <Compile Include="Domain\TransactionType.cs" />
@@ -97,8 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Base\ClassDiagram.cd" />
-    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

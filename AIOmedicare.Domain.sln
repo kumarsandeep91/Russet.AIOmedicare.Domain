@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Russet.AIOmedicare.Domain", "Russet.AIOmedicare.Domain.csproj", "{CCE3BA73-AFCD-4973-B462-544BC179F141}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F0339D3F-9154-4843-BB22-07B7874045A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "..\UnitTesting\UnitTesting.csproj", "{91CEA2ED-16CB-41D3-8037-822351D21237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{CCE3BA73-AFCD-4973-B462-544BC179F141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE3BA73-AFCD-4973-B462-544BC179F141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE3BA73-AFCD-4973-B462-544BC179F141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CEA2ED-16CB-41D3-8037-822351D21237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CEA2ED-16CB-41D3-8037-822351D21237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CEA2ED-16CB-41D3-8037-822351D21237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CEA2ED-16CB-41D3-8037-822351D21237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91CEA2ED-16CB-41D3-8037-822351D21237} = {F0339D3F-9154-4843-BB22-07B7874045A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Validation.6.0.1304.0\lib\NET45

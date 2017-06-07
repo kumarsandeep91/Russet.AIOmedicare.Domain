@@ -64,12 +64,14 @@
     <Compile Include="Domain\Billing\PaymentStatus.cs" />
     <Compile Include="Domain\Billing\ServiceBill.cs" />
     <Compile Include="Domain\Charge.cs" />
+    <Compile Include="Domain\Companies\Company.cs" />
     <Compile Include="Domain\Doctor\DoctorCommission.cs" />
     <Compile Include="Domain\Doctor\DoctorCommissionHistory.cs" />
     <Compile Include="Domain\Doctor\DoctorCommissionType.cs" />
     <Compile Include="Domain\Doctor\DoctorFeesHistory.cs" />
     <Compile Include="Domain\Doctor\DoctorType.cs" />
     <Compile Include="Domain\Inventories\Inventory.cs" />
+    <Compile Include="Domain\Manufacturers\Manufacturer.cs" />
     <Compile Include="Domain\Patient\BloodGroup.cs" />
     <Compile Include="Domain\Contact.cs" />
     <Compile Include="Domain\Doctor\Doctor.cs" />
@@ -85,10 +87,14 @@
     <Compile Include="Domain\Products\Batch.cs" />
     <Compile Include="Domain\Products\Category.cs" />
     <Compile Include="Domain\Products\Material.cs" />
+    <Compile Include="Domain\Products\Package.cs" />
     <Compile Include="Domain\Products\Product.cs" />
     <Compile Include="Domain\Products\SubCategory.cs" />
+    <Compile Include="Domain\Products\UnitOfMeasurement.cs" />
     <Compile Include="Domain\Service\Service.cs" />
     <Compile Include="Domain\Service\ServiceCategory.cs" />
+    <Compile Include="Domain\Stock.cs" />
+    <Compile Include="Domain\Suppliers\Supplier.cs" />
     <Compile Include="Domain\TransactionType.cs" />
     <Compile Include="Domain\ContactType.cs" />
     <Compile Include="Domain\Customer.cs" />
@@ -108,6 +114,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
